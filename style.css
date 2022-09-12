@@ -115,8 +115,9 @@ nav a.a:hover::after{
     position: sticky;
     z-index: -1;
     top: 0;
+    overflow: hidden;
     width: 100%;
-    margin-bottom: -6px;
+    margin-bottom: -50vh;
 }
 
 #landing {
@@ -241,6 +242,10 @@ button:hover {
 
     #main {
         padding: 70px;
+    }
+
+    #img {
+        margin-bottom: -5px;
     }
 
 }
